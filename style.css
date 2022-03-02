@@ -28,10 +28,10 @@ body {
 .divide {
     opacity: 0.1;
 }
-.button-cart {
+/* .button-cart {
     justify-content: center;
     margin-left: 16px;
-}
+} */
 .space-- {
     margin-left: 20px;
 }
@@ -53,7 +53,8 @@ body {
 .img-content {
     margin-top: 18px;
     width: 100%;
-    max-height: 720px;
+    /* max-height: 720px; */
+    height: auto;
     text-align: center;
     margin-bottom: 32px;
 }
@@ -80,15 +81,15 @@ body {
     text-align: center;
 }
 .space-cate {
-    margin-top: 1.8rem;
+    margin-top: 2rem;
     /* justify-content: space-between; */
 }
 .color-card {
     background-color: var(--category--color);
     /* border-color: var(--black--color); */
 }
-.img-card {
-    max-width: 100px;
+.img-card-cate {
+    max-width: 64px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 24px;
@@ -102,6 +103,13 @@ body {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    color: #212529;
+    font-weight: 100;
+}
+.hr-product {
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
     color: #212529;
     font-weight: 100;
 }
@@ -178,17 +186,42 @@ body {
     -webkit-box-shadow: -4px 6px 5px 2px rgba(0,0,0,0.2); 
     box-shadow: -4px 6px 5px 2px rgba(0,0,0,0.2);
 }
-
+.shadow {
+    -webkit-box-shadow: -3px 3px 16px 3px rgba(0,0,0,0.7); 
+    box-shadow: -3px 3px 16px 3px rgba(0,0,0,0.7);
+    border-radius: 12px;
+}
 .products-price {
-    color: #ff0000;
-    font-size: 22px;
+    color: #f00202;
+    /* font-size: 22px; */
     font-weight: 600;
-}
-.del-price {
-    color: #212529;
-    font-size: 14px;
-}
-.button-add-cart {
-    float: right;
+
 }
 
+.text-reset {
+    list-style: none;
+    text-decoration: unset;
+}
+.text-socials {
+    font-size: 20px;
+    /* margin-top: 20px; */
+}
+.footer {
+    margin-top: 4rem;
+}
+.fix-padding {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: var(--category--color);
+}
+
+/* Log in */
+.btn-block {
+    display: block;
+    margin-top: 20px;
+    /* width: 20%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Sign up */
