@@ -13,6 +13,7 @@
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -112,7 +113,7 @@
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control me-2 search-navbar" type="search" placeholder="Tìm kiếm ..."
+                            <input class="form-control me-2 search-navbar" type="search" placeholder="Search ..."
                                 aria-label="Search">
                             <a href=""><i class="fa-solid fa-magnifying-glass fix-icons"></i></a>
                         </form>
@@ -137,7 +138,175 @@
         <hr>
 
         <div class="product-details container-fluid">
+            <div class="wrapper row space-cate">
+                <div class="preview col-md-6">
+                    <div class="preview-pic tab-content">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/imgg.jpg" class="d-block w-100 fix-img-slides" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/273740811_676415323540414_160888832445635820_n.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/273675797_462523775357221_51180669476610226_n.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/273588629_4796867047057629_3462111848651987197_n.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <ul class="preview-thumbnail nav nav-tabs justify-content-center">
+                        <li class="active">
+                            <a data-target="#pic-1" data-toggle="tab">
+                                <img src="img/273740811_676415323540414_160888832445635820_n.jpg" /></a>
+                        </li>
+                        <li>
+                            <a data-target="#pic-2" data-toggle="tab">
+                                <img src="img/273675797_462523775357221_51180669476610226_n.jpg" /></a>
+                        </li>
+                        <li>
+                            <a data-target="#pic-3" data-toggle="tab">
+                                <img src="img/273588629_4796867047057629_3462111848651987197_n.jpg" /></a>
+                        </li>
+                        <li>
+                            <a data-target="#pic-3" data-toggle="tab">
+                                <img src="img/273588629_4796867047057629_3462111848651987197_n.jpg" /></a>
+                        </li>
+                        <li>
+                            <a data-target="#pic-3" data-toggle="tab">
+                                <img src="img/273588629_4796867047057629_3462111848651987197_n.jpg" /></a>
+                        </li>
+                    </ul>
 
+                </div>
+                <div class="details col-md-6">
+                    <h3 class="product-title">Fleece Jacket</h3>
+                    <div class="rating">
+                        <div class="stars mt-3">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <span class="review-no">162 recommends</span>
+                    </div>
+                    <h4 class="price mt-3">Price: 
+                        <span>&nbsp; 559,000₫</span>
+                    </h4>
+                    <p class="product-description mt-3">
+                        Một chiếc áo khoác fleece có phối màu sặc sỡ để làm điểm nhấn cho bộ outfit của mình. 
+                        Bạn cũng hoàn toàn có thể thể hiện sự tự tin va cá tính với phong cách thời trang của mình 
+                        bằng cách mix and match những lớp quần áo tương phản, có màu sắc nổi bật như đỏ, xanh dương, vàng, cam 
+                        hay xanh lá…đúng với tinh thần color-block. Tuy nhiên, hãy đảm bảo sự hài hòa trên bộ trang phục 
+                        với chiếc quần chinos hoặc một đôi Converse có tông màu neutral.</p>
+                    <p class="vote mt-3"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong>
+                    </p>
+                    <h5 class="sizes mt-3">sizes:
+                        &nbsp;
+                        <button type="button" class="btn btn-secondary" style="min-width: 7%;">S</button>
+                        <button type="button" class="btn btn-secondary" style="min-width: 7%;">M</button>
+                        <button type="button" class="btn btn-secondary" style="min-width: 7%;">L</button>
+                        <button type="button" class="btn btn-secondary" style="min-width: 7%;">XL</button>
+                        <button type="button" class="btn btn-secondary" style="min-width: 7%;">XXL</button>
+                    </h5>
+                    <h5 class="colors mt-3 mb-3">colors:
+                    &nbsp;
+                        <button type="button" class="btn black" style="height: 40px;width: 40px;"></button>
+                        <button type="button" class="btn red-orange" style="height: 40px;width: 40px;"></button>
+                        <button type="button" class="btn orange" style="height: 40px;width: 40px;"></button>
+                        <button type="button" class="btn green" style="height: 40px;width: 40px;"></button>
+                        <button type="button" class="btn blue" style="height: 40px;width: 40px;"></button>
+                    </h5>
+                    <div class="action mt-3">
+                        <button class="add-to-cart btn btn-default" type="button">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart </button>
+                        <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-5">
+            <div class="reviews mt-4">
+                <h4>ĐÁNH GIÁ SẢN PHẨM</h4>
+                <div class="stars" style="font-size: 20px;">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <div class="comments mt-3">
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="img/avatar.jpg" class="avatar-comments"/>
+                        </div>
+                        <div class="col-11">
+                            <div>Name</div>
+                            <p class="stars" style="font-size: 10px;">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>  
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-1">
+                            <img src="img/avatar.jpg" class="avatar-comments"/>
+                        </div>
+                        <div class="col-11">
+                            <div>Name</div>
+                            <p class="stars" style="font-size: 10px;">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>  
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-1">
+                            <img src="img/avatar.jpg" class="avatar-comments"/>
+                        </div>
+                        <div class="col-11">
+                            <div>Name</div>
+                            <p class="stars" style="font-size: 10px;">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
 
         <div class="footer container-fluid">
