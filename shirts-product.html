@@ -120,15 +120,17 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                             <li class="nav-item ">
-                                <a class="nav-link space--" href="">Sign Up</a>
+                                <a class="nav-link space-- " href="sign-up.html">Sign Up</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link space--" href="">Log in</a>
+                                <a class="nav-link space-- " href="log-in.html">Log In</a>
                             </li>
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-outline-dark button-cart">
-                            Giỏ Hàng <i class="fa-solid fa-cart-shopping"></i>
+                        <button type="button" onclick="document.location='cart.html'"
+                            class="btn btn-outline-dark button-cart">
+                            <span class="d-none d-xl-inline-block">Giỏ hàng</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
                         </button>
                     </div>
                 </div>
@@ -136,10 +138,11 @@
         </div>
         <hr>
 
-        <div class="list-shirts container-fluid" >
-            <div class="row">
+        <div class="list-shirts container-fluid">
+            <div class="row col-12" style="justify-content: center; margin-left: 0;">
+                <!-- CATEGORY -->
                 <div class="col-2 d-none d-xl-block">
-                    <h5>Danh Mục Sản Phẩm</h5>
+                    <h5>Danh Mục</h5>
                     &nbsp;
                     <div class="display-checkbox">
                         <input type="checkbox" class="checkbox">
@@ -176,10 +179,45 @@
                         <input type="checkbox" class="checkbox">
                         <label class="text-checkbox"> 2XL</label>
                     </div>
+                    &nbsp;
+                    <h5>Color</h5>
+                    &nbsp;
+                    <div class="display-checkbox">
+                        <input type="checkbox" class="checkbox">
+                        <label class="text-checkbox"> White</label>
+                    </div>
+                    <div class="display-checkbox">
+                        <input type="checkbox" class="checkbox">
+                        <label class="text-checkbox"> Black</label>
+                    </div>
+                    <div class="display-checkbox">
+                        <input type="checkbox" class="checkbox">
+                        <label class="text-checkbox"> Brown</label>
+                    </div>
+                    <div class="display-checkbox">
+                        <input type="checkbox" class="checkbox">
+                        <label class="text-checkbox"> Red</label>
+                    </div>
+                    <div class="display-checkbox">
+                        <input type="checkbox" class="checkbox">
+                        <label class="text-checkbox"> Blue</label>
+                    </div>
+                    <div class="display-checkbox">
+                        <input type="checkbox" class="checkbox">
+                        <label class="text-checkbox"> Pink</label>
+                    </div>
+                    <div class="display-checkbox">
+                        <input type="checkbox" class="checkbox">
+                        <label class="text-checkbox"> Green</label>
+                    </div>
+                    <div class="display-checkbox">
+                        <input type="checkbox" class="checkbox">
+                        <label class="text-checkbox"> Purple</label>
+                    </div>
                 </div>
-                <div class="col-10 row">
+                <div class="col-10 row" style="justify-content: center; margin-left: 0!important;">
                     <h5 class="text-center mb-4">Tất Cả Sản Phẩm Áo</h5>
-                    <div class="col">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                         <a href="product-details.html" class="fix-underline">
                             <div class="card shadow" style="width: 13rem;">
                                 <a href="product-details.html">
@@ -204,284 +242,278 @@
                             <p>&nbsp;</p>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                         <a href="" class="fix-underline">
                             <div class="card shadow" style="width: 13rem;">
-                                <img src="img/261726580_2297752860366802_8874055073762432009_n.jpg" 
+                                <img src="img/271520984_125780533274209_2858166543110070883_n.jpg"
                                     class="card-img-top img-fluid card-product-size" alt="...">
-                                    <div class="card-body">
-                                        <div class="hr-product">
-                                            <hr>
-                                        </div>
-                                        <h5 class="card-title text-center">Fabric Cardigan</h5>
-                                        &nbsp;
-                                        <p class="products-price ">
-                                            400,000₫
-                                            <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
-                                                style="float: right;">
-                                                <i class="fa-solid fa-cart-shopping"></i>
-                                            </button>
-                                        </p>
+                                <div class="card-body">
+                                    <div class="hr-product">
+                                        <hr>
                                     </div>
+                                    <h5 class="card-title text-center">Hoodie Zip</h5>
+                                    &nbsp;
+                                    <p class="products-price ">
+                                        359,000₫
+                                        <button type="button"
+                                            class="btn btn-outline-dark button-cart button-add-cart"
+                                            style="float: right;">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </p>
+                                </div>
                             </div>
                             <p>&nbsp;</p>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                         <a href="" class="fix-underline">
                             <div class="card shadow" style="width: 13rem;">
-                                <img src="img/271520984_125780533274209_2858166543110070883_n.jpg" 
+                                <img src="img/271672309_390725226140779_8280877593436303065_n.jpg"
                                     class="card-img-top img-fluid card-product-size" alt="...">
-                                    <div class="card-body">
-                                        <div class="hr-product">
-                                            <hr>
-                                        </div>
-                                        <h5 class="card-title text-center">Hoodie Zip</h5>
-                                        &nbsp;
-                                        <p class="products-price ">
-                                            359,000₫
-                                            <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
-                                                style="float: right;">
-                                                <i class="fa-solid fa-cart-shopping"></i>
-                                            </button>
-                                        </p>
+                                <div class="card-body">
+                                    <div class="hr-product">
+                                        <hr>
                                     </div>
+                                    <h5 class="card-title text-center">Coduroy Jacket</h5>
+                                    &nbsp;
+                                    <p class="products-price ">
+                                        450,000₫
+                                        <button type="button"
+                                            class="btn btn-outline-dark button-cart button-add-cart"
+                                            style="float: right;">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </p>
+                                </div>
                             </div>
                             <p>&nbsp;</p>
                         </a>
                     </div>
-                    <div class="col">
-                        <a href="" class="fix-underline">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <a href="product-details.html" class="fix-underline">
                             <div class="card shadow" style="width: 13rem;">
-                                <img src="img/271672309_390725226140779_8280877593436303065_n.jpg" 
-                                    class="card-img-top img-fluid card-product-size" alt="...">
-                                    <div class="card-body">
-                                        <div class="hr-product">
-                                            <hr>
-                                        </div>
-                                        <h5 class="card-title text-center">Coduroy Jacket</h5>
-                                        &nbsp;
-                                        <p class="products-price ">
-                                            450,000₫
-                                            <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
-                                                style="float: right;">
-                                                <i class="fa-solid fa-cart-shopping"></i>
-                                            </button>
-                                        </p>
+                                <a href="product-details.html">
+                                    <img src="img/273740811_676415323540414_160888832445635820_n.jpg"
+                                        class="card-img-top img-fluid card-product-size" alt="...">
+                                </a>
+                                <div class="card-body">
+                                    <div class="hr-product">
+                                        <hr>
                                     </div>
+                                    <h5 class="card-title text-center">Fleece Jacket</h5>
+                                    &nbsp;
+                                    <p class="products-price ">
+                                        559,000₫
+                                        <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
+                                            style="float: right;">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </p>
+                                </div>
                             </div>
                             <p>&nbsp;</p>
                         </a>
                     </div>
-                </div>
-                <div class="col-2 d-none d-xl-block">
-
-                </div>
-                <div class="col-10 row">
-                    <div class="col">
-                        <div class="col">
-                            <a href="" class="fix-underline">
-                                <div class="card shadow" style="width: 13rem;">
-                                    <img src="img/271672309_390725226140779_8280877593436303065_n.jpg" 
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <a href="product-details.html" class="fix-underline">
+                            <div class="card shadow" style="width: 13rem;">
+                                <a href="product-details.html">
+                                    <img src="img/273740811_676415323540414_160888832445635820_n.jpg"
                                         class="card-img-top img-fluid card-product-size" alt="...">
-                                        <div class="card-body">
-                                            <div class="hr-product">
-                                                <hr>
-                                            </div>
-                                            <h5 class="card-title text-center">Coduroy Jacket</h5>
-                                            &nbsp;
-                                            <p class="products-price ">
-                                                450,000₫
-                                                <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
-                                                    style="float: right;">
-                                                    <i class="fa-solid fa-cart-shopping"></i>
-                                                </button>
-                                            </p>
-                                        </div>
+                                </a>
+                                <div class="card-body">
+                                    <div class="hr-product">
+                                        <hr>
+                                    </div>
+                                    <h5 class="card-title text-center">Fleece Jacket</h5>
+                                    &nbsp;
+                                    <p class="products-price ">
+                                        559,000₫
+                                        <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
+                                            style="float: right;">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </p>
                                 </div>
-                                <p>&nbsp;</p>
-                            </a>
-                        </div>
+                            </div>
+                            <p>&nbsp;</p>
+                        </a>
                     </div>
-                    <div class="col">
-                        <div class="col">
-                            <a href="" class="fix-underline">
-                                <div class="card shadow" style="width: 13rem;">
-                                    <img src="img/271672309_390725226140779_8280877593436303065_n.jpg" 
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <a href="product-details.html" class="fix-underline">
+                            <div class="card shadow" style="width: 13rem;">
+                                <a href="product-details.html">
+                                    <img src="img/273740811_676415323540414_160888832445635820_n.jpg"
                                         class="card-img-top img-fluid card-product-size" alt="...">
-                                        <div class="card-body">
-                                            <div class="hr-product">
-                                                <hr>
-                                            </div>
-                                            <h5 class="card-title text-center">Coduroy Jacket</h5>
-                                            &nbsp;
-                                            <p class="products-price ">
-                                                450,000₫
-                                                <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
-                                                    style="float: right;">
-                                                    <i class="fa-solid fa-cart-shopping"></i>
-                                                </button>
-                                            </p>
-                                        </div>
+                                </a>
+                                <div class="card-body">
+                                    <div class="hr-product">
+                                        <hr>
+                                    </div>
+                                    <h5 class="card-title text-center">Fleece Jacket</h5>
+                                    &nbsp;
+                                    <p class="products-price ">
+                                        559,000₫
+                                        <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
+                                            style="float: right;">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </p>
                                 </div>
-                                <p>&nbsp;</p>
-                            </a>
-                        </div>
+                            </div>
+                            <p>&nbsp;</p>
+                        </a>
                     </div>
-                    <div class="col">
-                        <div class="col">
-                            <a href="" class="fix-underline">
-                                <div class="card shadow" style="width: 13rem;">
-                                    <img src="img/271672309_390725226140779_8280877593436303065_n.jpg" 
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <a href="product-details.html" class="fix-underline">
+                            <div class="card shadow" style="width: 13rem;">
+                                <a href="product-details.html">
+                                    <img src="img/273740811_676415323540414_160888832445635820_n.jpg"
                                         class="card-img-top img-fluid card-product-size" alt="...">
-                                        <div class="card-body">
-                                            <div class="hr-product">
-                                                <hr>
-                                            </div>
-                                            <h5 class="card-title text-center">Coduroy Jacket</h5>
-                                            &nbsp;
-                                            <p class="products-price ">
-                                                450,000₫
-                                                <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
-                                                    style="float: right;">
-                                                    <i class="fa-solid fa-cart-shopping"></i>
-                                                </button>
-                                            </p>
-                                        </div>
+                                </a>
+                                <div class="card-body">
+                                    <div class="hr-product">
+                                        <hr>
+                                    </div>
+                                    <h5 class="card-title text-center">Fleece Jacket</h5>
+                                    &nbsp;
+                                    <p class="products-price ">
+                                        559,000₫
+                                        <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
+                                            style="float: right;">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </p>
                                 </div>
-                                <p>&nbsp;</p>
-                            </a>
-                        </div>
+                            </div>
+                            <p>&nbsp;</p>
+                        </a>
                     </div>
-                    <div class="col">
-                        <div class="col">
-                            <a href="" class="fix-underline">
-                                <div class="card shadow" style="width: 13rem;">
-                                    <img src="img/271672309_390725226140779_8280877593436303065_n.jpg" 
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <a href="product-details.html" class="fix-underline">
+                            <div class="card shadow" style="width: 13rem;">
+                                <a href="product-details.html">
+                                    <img src="img/273740811_676415323540414_160888832445635820_n.jpg"
                                         class="card-img-top img-fluid card-product-size" alt="...">
-                                        <div class="card-body">
-                                            <div class="hr-product">
-                                                <hr>
-                                            </div>
-                                            <h5 class="card-title text-center">Coduroy Jacket</h5>
-                                            &nbsp;
-                                            <p class="products-price ">
-                                                450,000₫
-                                                <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
-                                                    style="float: right;">
-                                                    <i class="fa-solid fa-cart-shopping"></i>
-                                                </button>
-                                            </p>
-                                        </div>
+                                </a>
+                                <div class="card-body">
+                                    <div class="hr-product">
+                                        <hr>
+                                    </div>
+                                    <h5 class="card-title text-center">Fleece Jacket</h5>
+                                    &nbsp;
+                                    <p class="products-price ">
+                                        559,000₫
+                                        <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
+                                            style="float: right;">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </p>
                                 </div>
-                                <p>&nbsp;</p>
-                            </a>
-                        </div>
+                            </div>
+                            <p>&nbsp;</p>
+                        </a>
                     </div>
-                </div>
-                <div class="col-2 d-none d-xl-block">
-
-                </div>
-                <div class="col-10 row">
-                    <div class="col">
-                        <div class="col">
-                            <a href="" class="fix-underline">
-                                <div class="card shadow" style="width: 13rem;">
-                                    <img src="img/271672309_390725226140779_8280877593436303065_n.jpg" 
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <a href="product-details.html" class="fix-underline">
+                            <div class="card shadow" style="width: 13rem;">
+                                <a href="product-details.html">
+                                    <img src="img/273740811_676415323540414_160888832445635820_n.jpg"
                                         class="card-img-top img-fluid card-product-size" alt="...">
-                                        <div class="card-body">
-                                            <div class="hr-product">
-                                                <hr>
-                                            </div>
-                                            <h5 class="card-title text-center">Coduroy Jacket</h5>
-                                            &nbsp;
-                                            <p class="products-price ">
-                                                450,000₫
-                                                <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
-                                                    style="float: right;">
-                                                    <i class="fa-solid fa-cart-shopping"></i>
-                                                </button>
-                                            </p>
-                                        </div>
+                                </a>
+                                <div class="card-body">
+                                    <div class="hr-product">
+                                        <hr>
+                                    </div>
+                                    <h5 class="card-title text-center">Fleece Jacket</h5>
+                                    &nbsp;
+                                    <p class="products-price ">
+                                        559,000₫
+                                        <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
+                                            style="float: right;">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </p>
                                 </div>
-                                <p>&nbsp;</p>
-                            </a>
-                        </div>
+                            </div>
+                            <p>&nbsp;</p>
+                        </a>
                     </div>
-                    <div class="col">
-                        <div class="col">
-                            <a href="" class="fix-underline">
-                                <div class="card shadow" style="width: 13rem;">
-                                    <img src="img/271672309_390725226140779_8280877593436303065_n.jpg" 
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <a href="product-details.html" class="fix-underline">
+                            <div class="card shadow" style="width: 13rem;">
+                                <a href="product-details.html">
+                                    <img src="img/273740811_676415323540414_160888832445635820_n.jpg"
                                         class="card-img-top img-fluid card-product-size" alt="...">
-                                        <div class="card-body">
-                                            <div class="hr-product">
-                                                <hr>
-                                            </div>
-                                            <h5 class="card-title text-center">Coduroy Jacket</h5>
-                                            &nbsp;
-                                            <p class="products-price ">
-                                                450,000₫
-                                                <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
-                                                    style="float: right;">
-                                                    <i class="fa-solid fa-cart-shopping"></i>
-                                                </button>
-                                            </p>
-                                        </div>
+                                </a>
+                                <div class="card-body">
+                                    <div class="hr-product">
+                                        <hr>
+                                    </div>
+                                    <h5 class="card-title text-center">Fleece Jacket</h5>
+                                    &nbsp;
+                                    <p class="products-price ">
+                                        559,000₫
+                                        <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
+                                            style="float: right;">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </p>
                                 </div>
-                                <p>&nbsp;</p>
-                            </a>
-                        </div>
+                            </div>
+                            <p>&nbsp;</p>
+                        </a>
                     </div>
-                    <div class="col">
-                        <div class="col">
-                            <a href="" class="fix-underline">
-                                <div class="card shadow" style="width: 13rem;">
-                                    <img src="img/271672309_390725226140779_8280877593436303065_n.jpg" 
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <a href="product-details.html" class="fix-underline">
+                            <div class="card shadow" style="width: 13rem;">
+                                <a href="product-details.html">
+                                    <img src="img/273740811_676415323540414_160888832445635820_n.jpg"
                                         class="card-img-top img-fluid card-product-size" alt="...">
-                                        <div class="card-body">
-                                            <div class="hr-product">
-                                                <hr>
-                                            </div>
-                                            <h5 class="card-title text-center">Coduroy Jacket</h5>
-                                            &nbsp;
-                                            <p class="products-price ">
-                                                450,000₫
-                                                <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
-                                                    style="float: right;">
-                                                    <i class="fa-solid fa-cart-shopping"></i>
-                                                </button>
-                                            </p>
-                                        </div>
+                                </a>
+                                <div class="card-body">
+                                    <div class="hr-product">
+                                        <hr>
+                                    </div>
+                                    <h5 class="card-title text-center">Fleece Jacket</h5>
+                                    &nbsp;
+                                    <p class="products-price ">
+                                        559,000₫
+                                        <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
+                                            style="float: right;">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </p>
                                 </div>
-                                <p>&nbsp;</p>
-                            </a>
-                        </div>
+                            </div>
+                            <p>&nbsp;</p>
+                        </a>
                     </div>
-                    <div class="col">
-                        <div class="col">
-                            <a href="" class="fix-underline">
-                                <div class="card shadow" style="width: 13rem;">
-                                    <img src="img/271672309_390725226140779_8280877593436303065_n.jpg" 
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <a href="product-details.html" class="fix-underline">
+                            <div class="card shadow" style="width: 13rem;">
+                                <a href="product-details.html">
+                                    <img src="img/273740811_676415323540414_160888832445635820_n.jpg"
                                         class="card-img-top img-fluid card-product-size" alt="...">
-                                        <div class="card-body">
-                                            <div class="hr-product">
-                                                <hr>
-                                            </div>
-                                            <h5 class="card-title text-center">Coduroy Jacket</h5>
-                                            &nbsp;
-                                            <p class="products-price ">
-                                                450,000₫
-                                                <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
-                                                    style="float: right;">
-                                                    <i class="fa-solid fa-cart-shopping"></i>
-                                                </button>
-                                            </p>
-                                        </div>
+                                </a>
+                                <div class="card-body">
+                                    <div class="hr-product">
+                                        <hr>
+                                    </div>
+                                    <h5 class="card-title text-center">Fleece Jacket</h5>
+                                    &nbsp;
+                                    <p class="products-price ">
+                                        559,000₫
+                                        <button type="button" class="btn btn-outline-dark button-cart button-add-cart"
+                                            style="float: right;">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </p>
                                 </div>
-                                <p>&nbsp;</p>
-                            </a>
-                        </div>
+                            </div>
+                            <p>&nbsp;</p>
+                        </a>
                     </div>
                 </div>
             </div>
